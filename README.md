@@ -13,7 +13,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Alakh11/Parking-Space-Counter-Project.git">
+  <a href="https://github.com/Alakh11/Parking-Space.git">
     <img src="readme-images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -22,14 +22,14 @@
   <p align="center">
     A Parking Space Counter Project
     <br />
-    <a href="https://github.com/Alakh11/Parking-Space-Counter-Project.git"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Alakh11/Parking-Space.git"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Alakh11/Parking-Space-Counter-Project.git">View Demo</a>
+    <a href="https://github.com/Alakh11/Parking-Space.git">View Demo</a>
     ·
-    <a href="https://github.com/Alakh11/Parking-Space-Counter-Project.git/issues">Report Bug</a>
+    <a href="https://github.com/Alakh11/Parking-Space.git/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Alakh11/Parking-Space-Counter-Project.git/issues">Request Feature</a>
+    <a href="https://github.com/Alakh11/Parking-Space.git/issues">Request Feature</a>
   </p>
 </div>
 
@@ -66,7 +66,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/Alakh11/Parking-Space-Counter-Project.git)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/Alakh11/Parking-Space.git)
 
 The Parking Space Counter project is designed to help parking lot operators or drivers quickly and easily determine the number of available parking spaces in a lot. By using computer vision techniques to analyze video footage of the lot, the system can accurately count the number of open spaces and make this information available in real-time. This project can be easily applied to any parking space with just a camera and a computer, helping people find available parking spots quickly and easily.
 
@@ -150,7 +150,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- Images -->
 ## Images
 
-[![Screen Shots][parking-spaces-to-be-checked]](https://github.com/Alakh11/Parking-Space-Counter-Project.git)
+[![Screen Shots][parking-spaces-to-be-checked]](https://github.com/Alakh11/Parking-Space.git)
 
 _Places that are considered as parking spaces manually selected with ParkingSpacePicker.py_
 
@@ -167,19 +167,19 @@ _Places that are considered as parking spaces manually selected with ParkingSpac
 
 _After selecting the parking spaces, storing them into CarParkPos file and splitting each frame that are selected with ParkingSpacePicker.py_
 
-[![Screen Shots][blurred-img]](https://github.com/Alakh11/Parking-Space-Counter-Project.git)
+[![Screen Shots][blurred-img]](https://github.com/Alakh11/Parking-Space.git)
 
 _Blurring the image after making it grayscale_
 
-[![Screen Shots][threshold-img]](https://github.com/Alakh11/Parking-Space-Counter-Project.git)
+[![Screen Shots][threshold-img]](https://github.com/Alakh11/Parking-Space.git)
 
 _Converting image into a binary image with Thresholding_
 
-[![Screen Shots][dilated-img]](https://github.com/Alakh11/Parking-Space-Counter-Project.git)
+[![Screen Shots][dilated-img]](https://github.com/Alakh11/Parking-Space.git)
 
 _After thresholding, to remove unwanted white pixels we are dilating the threshold image_
 
-[![Screen Shots][median-img]](https://github.com/Alakh11/Parking-Space-Counter-Project.git)
+[![Screen Shots][median-img]](https://github.com/Alakh11/Parking-Space.git)
 
 _To adjust the thickness, we're generating the median image_
 
@@ -196,15 +196,15 @@ _To adjust the thickness, we're generating the median image_
 
 _After dilation and median images, it's evident whether there's a car in a parking spot or not._
 
-[![Screen Shots][spaces-with-counters]](https://github.com/Alakh11/Parking-Space-Counter-Project.git)
+[![Screen Shots][spaces-with-counters]](https://github.com/Alakh11/Parking-Space.git)
 
 _Now, on our original dilated image, we can count the white pixels and display their numbers on the image. If a parking space is empty, the number of white pixels is expected to be less than 900. However, if the number of white pixels is more than 900, it is an indication that there is a car present in the parking space._
 
-[![Screen Shots][product-screenshot]](https://github.com/Alakh11/Parking-Space-Counter-Project.git)
+[![Screen Shots][product-screenshot]](https://github.com/Alakh11/Parking-Space.git)
 
 _Finally, we count the number of available parking spaces and draw rectangles around each parking spot. If a parking space is available, we mark it with a green color, and if it is occupied, we mark it with a red color._
 
-See the [main.py](https://github.com/Alakh11/Parking-Space-Counter-Project.git/blob/master/main.py) for the detailed explanations on the code.
+See the [main.py](https://github.com/Alakh11/Parking-Space.git/blob/master/main.py) for the detailed explanations on the code.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -242,7 +242,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Alakh Chaturvedi - [alakhchaturvedi](https://www.linkedin.com/in/alakhchaturvedi/) - alakh1304@gmail.com
 
-Project Link: [https://github.com/Alakh11/Parking-Space-Counter-Project.git](https://github.com/Alakh11/Parking-Space-Counter-Project.git)
+Project Link: [https://github.com/Alakh11/Parking-Space.git](https://github.com/Alakh11/Parking-Space.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -263,15 +263,15 @@ Creating a project like the Parking Space Counter requires a lot of research, ex
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/Alakh11/Parking-Space-Counter-Project.svg?style=for-the-badge
-[contributors-url]: https://github.com/Alakh11/Parking-Space-Counter-Project.git/graphs/contributors
+[contributors-url]: https://github.com/Alakh11/Parking-Space.git/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Alakh11/Parking-Space-Counter-Project.svg?style=for-the-badge
-[forks-url]: https://github.com/Alakh11/Parking-Space-Counter-Project.git/network/members
+[forks-url]: https://github.com/Alakh11/Parking-Space.git/network/members
 [stars-shield]: https://img.shields.io/github/stars/Alakh11/Parking-Space-Counter-Project.svg?style=for-the-badge
-[stars-url]: https://github.com/Alakh11/Parking-Space-Counter-Project.git/stargazers
+[stars-url]: https://github.com/Alakh11/Parking-Space.git/stargazers
 [issues-shield]: https://img.shields.io/github/issues/Alakh11/Parking-Space-Counter-Project.svg?style=for-the-badge
-[issues-url]: https://github.com/Alakh11/Parking-Space-Counter-Project.git/issues
+[issues-url]: https://github.com/Alakh11/Parking-Space.git/issues
 [license-shield]: https://img.shields.io/github/license/Alakh11/Parking-Space-Counter-Project.svg?style=for-the-badge
-[license-url]: https://github.com/Alakh11/Parking-Space-Counter-Project.git/blob/master/LICENSE.txt
+[license-url]: https://github.com/Alakh11/Parking-Space.git/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/alakhchaturvedi/
 [Python]: https://img.shields.io/badge/python-000000?style=for-the-badge&logo=python&
